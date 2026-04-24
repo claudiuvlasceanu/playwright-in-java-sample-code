@@ -21,7 +21,7 @@ public class SearchForProductsTest implements TakesFinalScreenshot {
 
     @BeforeEach
     void openHomePage(Page page) {
-        page.navigate("https://practicesoftwaretesting.com");
+        page.navigate("/");
     }
 
     @Nested
